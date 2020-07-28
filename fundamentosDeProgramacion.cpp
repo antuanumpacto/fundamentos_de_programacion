@@ -31,6 +31,7 @@ int main()
     //git push -u origin master: push es pra subir cambios
     //git clone url: copiar el proyecto
     //git status: ver archivos manipulados
+    //git pull: bajar cambios
 
 
     //Se retorna 0 porque cero no tiene valor y la funcion main especifica que se retorne un entero
