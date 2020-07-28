@@ -33,6 +33,13 @@ int main()
     //git status: ver archivos manipulados
     //git pull: bajar cambios
 
+    //Subir cambios
+    //git add *
+    //git commit - m "texto descriptivo"
+    //git push (Subir cambios)
+    //Bajar cambios
+    //git pull
+
 
     //Se retorna 0 porque cero no tiene valor y la funcion main especifica que se retorne un entero
     return 0;
