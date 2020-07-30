@@ -3,7 +3,7 @@
 using namespace std;
 
 //Metodo principal, es el primero en ejecutarse
-int main()
+int main1()
 {
     //Imprimir texto en pantalla se utiliza cout <<
     /*
@@ -14,9 +14,7 @@ int main()
         \' Escapar '
         \" Escapar "
     */
-    cout <<"---------------------------------------------------------\n"
-        << "|                  Antuan Barahona                      |\n"
-        << "---------------------------------------------------------";
+   
 
     //Manejo de terminal o consola
     //Iniciar la terminal: tecla windows + r y escribir cmd
@@ -42,6 +40,17 @@ int main()
 
 
     //Se retorna 0 porque cero no tiene valor y la funcion main especifica que se retorne un entero
+
+    //*************************************************************************************************
+    /*cout << "---------------------------------------------------------\n"
+        << "|                  Antuan Barahona                      |\n"
+        << "---------------------------------------------------------";*/
+
+        //*************************************************************************************************
+    /*cout << "---------------------------------------------------------\n"
+        << "|                  Antuan Barahona2                      |\n"
+        << "---------------------------------------------------------";*/
+
     return 0;
 }
 
