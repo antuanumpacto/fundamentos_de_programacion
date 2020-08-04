@@ -1,8 +1,9 @@
 #include <iostream>
 #include <math.h>
+#include <string>
 using namespace std;
 
-int main() {
+void main3() {
 
 	////Para declarar un dato primero va el tipo de dato y luego el nombre de la variable
 	//// comillas dobles para tipo string y comillas simples para caracter
@@ -69,11 +70,9 @@ int main() {
 	cout << "\nEl total es: " << suma;*/
 
 
-	//sqrt(valor) y pow(base, elevada a) ^
+	//raiz cuadrada: sqrt(valor) y exponente: pow(base, elevada a) ^
 	// cast (tipo de dato) cambiay retorna el tipo de dato asignado
-	float raiz, exponente, base;
-
-	
+	/*float raiz, exponente, base;
 
 	cout << "Ingresa la base: ";
 
@@ -85,9 +84,43 @@ int main() {
 
 
 	cout << "\nEl resultado es: " << raiz << "\n"
-		<< "El resultado es: " << exponente;
+		<< "El resultado es: " << exponente;*/
 
+
+	//Pedir datos al usuario
+
+	//float vI, vF, d, a,resultadoVelocidadIncial,resuldatoDeAceleracionPorDistancia,resultadoDeLaSuma;
+
+	//cout << "Ingrese la velocidad inicial: ";
+	////12
+	//cin >> vI;
+	////8
+	//cout << "\nIngrese la distancia: ";
+	////4
+	//cin >> d;
+
+	//cout << "\nIngrese la aceleracion: ";
+	//
+	//cin >> a;
+	//resultado 13.26
+
+	//Largo
+	/*resultadoVelocidadIncial = pow(vI, 2);
+	resuldatoDeAceleracionPorDistancia = a * d;
+	resultadoDeLaSuma = resultadoVelocidadIncial + resuldatoDeAceleracionPorDistancia;
+	vF = sqrt(resultadoDeLaSuma);*/
+	//Corto
+
+	/*vF = sqrt((pow(vI, 2)+(a*d)));
+
+	cout << "\nLa velocidad final es: " << vF;*/
+
+	/*string name;
+
+	cout << "Please, enter your full name: ";
+	getline(cin, name);
+	cout << "Hello, " << name << "!\n";*/
 
 	
-
+	
 }

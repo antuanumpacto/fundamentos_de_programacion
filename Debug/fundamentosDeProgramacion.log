@@ -1,2 +1,3 @@
-﻿  tipo_de_datos.cpp
+﻿  control_de_flujo.cpp
+C:\Users\Antuan\Desktop\Curso fundamentos de programacion\fundamentosDeProgramacion\control_de_flujo.cpp(11,144): warning C4101: 'suma': variable local sin referencia
   fundamentosDeProgramacion.vcxproj -> C:\Users\Antuan\Desktop\Curso fundamentos de programacion\fundamentosDeProgramacion\Debug\fundamentosDeProgramacion.exe
