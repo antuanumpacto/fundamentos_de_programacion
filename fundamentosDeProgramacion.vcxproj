@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="control_de_flujo.cpp" />
+    <ClCompile Include="deber.cpp" />
     <ClCompile Include="for.cpp" />
     <ClCompile Include="fundamentosDeProgramacion.cpp" />
     <ClCompile Include="matrices.cpp" />
