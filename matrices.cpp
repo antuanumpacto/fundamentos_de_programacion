@@ -64,21 +64,21 @@ int main() {
 
 	//cout << "EL valor maximo ingresado en la matriz es: " << valorMaximo;
 	//allocate the array
-	//int row = 2,col = 2;
+	int row = 2,col = 2;
 
-	//int** arr = new int* [row];
-	//for (int i = 0; i < row; i++)
-	//	arr[i] = new int[col];
+	int** arr = new int* [row];
+	for (int i = 0; i < row; i++)
+		arr[i] = new int[col];
 
-	//// use the array
-	//for (int i = 0; i < 2; i++)
-	//{
-	//	for (int j = 0; j < 2; j++)
-	//	{
-	//		cout << "Elemento " << "[" << i + 1 << "][" << j + 1 << "]: ";
-	//		cin >> arr[i][j];
-	//	}
-	//}
+	// use the array
+	for (int i = 0; i < 2; i++)
+	{
+		for (int j = 0; j < 2; j++)
+		{
+			cout << "Elemento " << "[" << i + 1 << "][" << j + 1 << "]: ";
+			cin >> arr[i][j];
+		}
+	}
 
 	//
 
@@ -98,7 +98,7 @@ int main() {
 	//1) que los valores sean moyor que 5
 	//2) el usuario es escoge un rango a => b
 	//3) suma total de la matriz
-	int matrizA[3][5], valorMaximo = 0,valorTotal = 0,a = 7,b = 10;
+	/*int matrizA[3][5], valorMaximo = 0,valorTotal = 0,a = 7,b = 10;
 
 	for (int i = 0; i < 3; i++)
 	{
@@ -133,7 +133,7 @@ int main() {
 
 	}
 
-	cout << "\nEl valor total es: " << valorTotal;
+	cout << "\nEl valor total es: " << valorTotal;*/
 }
 
 int par(int numero) {
